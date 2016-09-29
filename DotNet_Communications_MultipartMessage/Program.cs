@@ -32,7 +32,7 @@ namespace DotNet_Communications_MultipartMessage
             content.Add(byteContent, "this is the name of the content", imageFile.Name);
 
             // Construct request message
-            Uri serviceAddress = new Uri(@"http://localhost:5555/");
+            Uri serviceAddress = new Uri(@"http://localhost:8080/JavaReceiverServlet/Mulitpart");
             HttpRequestMessage request = new HttpRequestMessage(HttpMethod.Post, serviceAddress);
             request.Headers.ExpectContinue = false; // Some servers don’t know how to handle the ‘Continue’ value and they will throw an exception
             request.Content = content;

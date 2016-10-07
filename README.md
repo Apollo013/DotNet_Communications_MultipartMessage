@@ -1,5 +1,7 @@
 # DotNet_Communications_MultipartMessage
+
 A small app demonstrating how to send a multipart message from a DotNet Console app to a Java Web Service
+
 ---
 
 Developed with Visual Studio 2015 Community

@@ -15,6 +15,12 @@ Developed with Visual Studio 2015 Community
 |Java|
 ---
 
+This solution consists of a .Net console app that gets the a jpg image from your 'MyPictures' folder, and then uses a HttpClient object to sends it to a java web service which in turns saves it to disc.
+
+Make sure you run the java web service first, and then run the console app. Also, make sure you have rights to access the MyPictures folder.
+
+---
+
 ###Resources
 |Title|Author|Website|
 |-----|------|-------|
